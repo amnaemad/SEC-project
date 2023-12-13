@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>News Trust Analysis</title>
+</head>
+<body>
+
+    
+
+    
+
+    <div class="main-content">
+        <header>
+            <h1>News Trust Analysis</h1>
+        </header>
+        <main>
+            <div class="main-container">
+        <div class="">
+            <!-- <button id="menu-button">&#9776; Menu</button> -->
+            <div class="options">
+                <a href="https://www.dawn.com/" class="menu-option">Latest news</a>
+                <a href="https://sports.yahoo.com/?fr=sycsrp_catchall" class="menu-option">Sport News</a>
+               
+                <a href="https://www.linkedin.com/in/awaisdatascientist?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="menu-option">Contact Us</a>
+                <a href="http://127.0.0.1:5500/magazines.html" class="menu-option">Magazines</a>
+
+            </div>
+        </div>
+            <div class="container placeholder-container">
+                <textarea id="inputText" placeholder="Enter the news text here..."></textarea>
+                <button id="analyzetext">Analyze Trust</button>
+    
+                <div id="results">
+                    <h2>Analysis Results</h2>
+                    <p id="sentimentResult">Sentiment: </p>
+                </div>
+            </div>
+        </div>
+
+        </main>
+    </div>
+    
+    <script type="module" src="database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.1/firebase-firestore.js"></script>
+    <script src="script.js"></script>
+    <script src="menu.js"></script>
+</body>
+</html>
