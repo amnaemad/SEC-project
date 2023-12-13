@@ -1,1 +1,1 @@
-# SEC-project
+# NewsTrustAI
